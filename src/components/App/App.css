@@ -1,0 +1,29 @@
+.App {
+    padding: 1em;
+}
+
+.App.wrapper {
+    display: grid;
+    grid-template-columns: 670px 1fr;
+    grid-gap: 1em;
+    background-color: #fff;
+    color: #444;
+}
+
+.App .pixelMatrix {
+    padding: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: gray;
+}
+
+.App .colorPicker {
+    margin: 5px;
+}
+
+.App .color-history {
+    width: 7em;
+    padding: 1em;
+    margin: 1em;
+    display: inline-block;
+}
